@@ -302,7 +302,7 @@ download = (cacheFile, cachePath, version, cacheZip, token) ->
     # Download electron package throw stream.
     bar = null
     grs
-      repo: 'atom/electron'
+      repo: 'electron/electron'
       tag: version
       name: cacheZip
       token: token

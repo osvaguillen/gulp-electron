@@ -368,7 +368,7 @@ download = function(cacheFile, cachePath, version, cacheZip, token) {
     fs.mkdirsSync(cachePath);
     bar = null;
     return grs({
-      repo: 'atom/electron',
+      repo: 'electron/electron',
       tag: version,
       name: cacheZip,
       token: token
